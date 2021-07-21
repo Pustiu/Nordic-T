@@ -1,2 +1,4 @@
-# nordic
-The Transparent Nordic Model for Analysis
+# The Transparent Nordic Model for Analysis
+The Nordic Electrical Power System modelled on transparent data and observed systems state. 
+
+<iframe src="nordic_system_state_map.html" height="500" width="500"></iframe>
