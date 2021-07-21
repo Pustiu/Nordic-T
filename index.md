@@ -2,7 +2,7 @@
 
 Here is a map on the Nordic System State Model.
 
-<iframe src="nordic_state_map.html" height="500" width="750"></iframe>
+<iframe src="nordic_state_model_map.html" height="500" width="750"></iframe>
 
 You can edit the maps own html site [here](https://github.com/ocrj/nordic/blob/gh-pages/nordic_state_model_map.html)
 
