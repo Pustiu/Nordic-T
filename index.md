@@ -1,4 +1,8 @@
-## Welcome to GitHub Pages
+## Welcome to The Transparent Nordic Model for Analysis.
+
+Here is a map on the Nordic System State Model.
+
+<iframe src="nordic_system_state_map.html" height="500" width="500"></iframe>
 
 You can use the [editor on GitHub](https://github.com/ocrj/nordic/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
