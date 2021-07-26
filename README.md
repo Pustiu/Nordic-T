@@ -6,4 +6,4 @@ This projects aim is to gather all available transparency data into one true, hi
 
 **All varioius transparent open data sources has been implemented into one interactive map as seen below, for all convenience.**
 
-<iframe src="nordic_system_state_map.html" height="500" width="500"></iframe>
+<iframe src="nordic_state_model_map.html" height="500" width="500"></iframe>
