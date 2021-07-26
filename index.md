@@ -1,8 +1,13 @@
-## Welcome to The Transparent Nordic Model for Analysis.
+# The Transparent Nordic Model (NordicT)
+The Nordic Transparency Model (NordicT) is a model of the Nordic Electrical Power System built on all found available transparency sources.
+Following the EU ... ..., also referred to as the Transparency Act, all TSOs are obliged to deliver a set off data to be made accessable on the Entsoe Transparency Platform. In addition, TSOs are also making data on system topology and operations available on their own open data platforms. 
 
-Here is a map on the Nordic System State Model.
+This projects aim is to gather all available transparency data into one true, highly detailed Nordic Transparency Model to be used as the base-case system state model.
 
-<iframe src="nordic_state_model_map.html" height="500" width="750"></iframe>
+**All varioius transparent open data sources has been implemented into one interactive map as seen below, for all convenience.**
+
+<iframe src="nordic_system_state_map.html" height="500" width="500"></iframe>
+
 
 You can edit the maps own html site [here](https://github.com/ocrj/nordic/blob/gh-pages/nordic_state_model_map.html)
 
