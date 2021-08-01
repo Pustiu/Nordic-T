@@ -1,4 +1,4 @@
-# The Nordic Transparency Model (NordicT)
+# The Nordic Transparency Model (Nordic-T)
 The Nordic Transparency Model (Nordic-t for short) is an open open research model of the Nordic Electrical Power System built on high accuracy, transparent sources gathered from its Transmission System Operators: Fingrid - Finland, Energinet - Denmark, Statnett - Norway and Svenska kraftnät - Sweden. 
 Following the EU ... ..., also referred to as the Transparency Act, all TSOs are obliged to deliver a set off data to be made accessable on the Entsoe Transparency Platform. In addition, TSOs are also making data on system topology and operations available on their own open data platforms. 
 
