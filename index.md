@@ -1,5 +1,5 @@
 # The Nordic Transparency Model for Analysis
-The Nordic Transparency Model, Nordic-T for short, is an open open research model of the Nordic Electrical Power System built on high accuracy, transparent sources gathered from its Transmission System Operators: Fingrid - Finland, Energinet - Denmark, Statnett - Norway and Svenska kraftnät - Sweden. 
+The Nordic Transparency Model, <em>Nordic-T for short</em>, is an open open research model of the Nordic Electrical Power System built on high accuracy, transparent sources gathered from its Transmission System Operators: Fingrid - Finland, Energinet - Denmark, Statnett - Norway and Svenska kraftnät - Sweden. 
 
 It is created as part of the research project at NTNU.
 
@@ -12,11 +12,11 @@ The Nordic-t Raw-Net Map -> Nordic-t Network Model -> Nordic-t State Model -> No
 
 This map collects the combined transparent Nordic-T network sources into one raw data map disply.
 
-<p align="center"><iframe src="data/maps/nordict_raw-net_map.html" height="500" width="500"></p>
+<p align="center"><iframe src="data/maps/nordict_raw-net_map.html" height="500" width="500"></iframe></p>
 
 ## The Nordict Network Model Map
 
-<p align="center"></iframe> <iframe src="nordic_state_model_map.html" height="500" width="500"></iframe></p>
+<p align="center"><iframe src="nordic_state_model_map.html" height="500" width="500"></iframe></p>
 
 
 You can edit the maps own html site [here](https://github.com/ocrj/nordic/blob/gh-pages/nordic_state_model_map.html)
