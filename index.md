@@ -8,15 +8,24 @@ This projects aim is to gather all available transparency data into one true, hi
 **All varioius transparent open data sources has been implemented into one interactive map as seen below, for all convenience.**
 
 The Nordic-t Raw-Net Map -> Nordic-t Network Model -> Nordic-t State Model -> Nordic-t Simulation Model
-## The Nordic-t Raw-Net Map
+## The Nordic-t Modelling Maps
+
+### Raw-Transparency Map
 
 This map collects and combines the models transparent network sources into one; raw data map display. Zooming closely inn on Norway and Finland enables their networks full contents.
 
 <p align="center"><iframe src="data/maps/nordict_raw-net_map.html" height="500" width="750"></iframe></p>
 
-## The Nordict Network Model Map
+## Network Map
 
 <p align="center"><iframe src="nordic_state_model_map.html" height="500" width="750"></iframe></p>
 
+## State Map
+
+<p align="center"><iframe src="nordic_state_model_map.html" height="500" width="750"></iframe></p>
+
+## Analysis Map
+
+Utilizing the open source [PandaPower](https://www.pandapower.org/) open source power system modelling tool, initial solutions for the models linearized power flows solutions is seen in this analysis map.
 
 You can edit the maps own html site [here](https://github.com/ocrj/nordic/blob/gh-pages/nordic_state_model_map.html)
