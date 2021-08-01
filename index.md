@@ -7,22 +7,22 @@ This projects aim is to gather all available transparency data into one true, hi
 
 **All varioius transparent open data sources has been implemented into one interactive map as seen below, for all convenience.**
 
-The Nordic-t Raw-Net Map -> Nordic-t Network Model -> Nordic-t State Model -> Nordic-t Simulation Model
+
 ## The Nordic-t Modelling Maps
 
-### Raw-Transparency Map
+### Raw-Net Transparency Data Model
 
-This map collects and combines the models transparent network sources into one; raw data map display. Zooming closely inn on Norway and Finland reveals their networks full contents.
+This model representation is simply the transparent, raw network representations as found in the transparent sources, combined into one simple model map display. Zooming closely inn on Norway and Finland reveals their networks full contents.
 
-<p align="center"><iframe src="data/maps/nordict_raw-net_map.html" height="500" width="750"></iframe></p>
+<p align="center"><iframe src="data/maps/nordict_raw-net_map.html" height="500" width="700"></iframe></p>
 
 ## Network Map
 
-<p align="center"><iframe src="nordic_state_model_map.html" height="500" width="750"></iframe></p>
+<p align="center"><iframe src="nordic_state_model_map.html" height="500" width="700"></iframe></p>
 
 ## State Map
 
-<p align="center"><iframe src="nordic_state_model_map.html" height="500" width="750"></iframe></p>
+<p align="center"><iframe src="nordic_state_model_map.html" height="500" width="700"></iframe></p>
 
 ## Analysis Map
 
