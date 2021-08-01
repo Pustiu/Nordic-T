@@ -12,5 +12,7 @@ data/processed/maps/nordict_raw-net_map.html
 
 <iframe src="data/maps/nordict_raw-net_map.html" height="500" width="500"></iframe> <iframe src="nordic_state_model_map.html" height="500" width="500"></iframe>
 
+<img src="https://openclipart.org/image/2400px/svg_to_png/28580/kablam-Number-Animals-1.png" width="200"/> <img src="https://openclipart.org/download/71101/two.svg" width="300"/>
+
 
 You can edit the maps own html site [here](https://github.com/ocrj/nordic/blob/gh-pages/nordic_state_model_map.html)
