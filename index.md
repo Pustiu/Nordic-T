@@ -12,11 +12,11 @@ The Nordic-t Raw-Net Map -> Nordic-t Network Model -> Nordic-t State Model -> No
 
 This map collects the combined transparent Nordic-T network sources into one raw data map disply.
 
-<iframe src="data/maps/nordict_raw-net_map.html" height="500" width="500"></iframe> <iframe src="nordic_state_model_map.html" height="500" width="500"></iframe>
+<p align="center"><iframe src="data/maps/nordict_raw-net_map.html" height="500" width="500"></p>
 
 ## The Nordict Network Model Map
 
-<img src="data/maps/nordict_raw-net_map.html" width="200"/> <img src="https://openclipart.org/download/71101/two.svg" width="300"/>
+<p align="center"></iframe> <iframe src="nordic_state_model_map.html" height="500" width="500"></iframe></p>
 
 
 You can edit the maps own html site [here](https://github.com/ocrj/nordic/blob/gh-pages/nordic_state_model_map.html)
