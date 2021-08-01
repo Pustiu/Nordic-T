@@ -10,9 +10,7 @@ The Nordic-t Raw-Net Map -> Nordic-t Network Model -> Nordic-t State Model -> No
 
 data/processed/maps/nordict_raw-net_map.html
 
-<iframe src="data/maps/nordict_raw-net_map.html" height="500" width="500"></iframe>
-
-<iframe src="nordic_state_model_map.html" height="500" width="500"></iframe>
+<iframe src="data/maps/nordict_raw-net_map.html" height="500" width="500"></iframe> <iframe src="nordic_state_model_map.html" height="500" width="500"></iframe>
 
 
 You can edit the maps own html site [here](https://github.com/ocrj/nordic/blob/gh-pages/nordic_state_model_map.html)
