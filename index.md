@@ -8,6 +8,10 @@ This projects aim is to gather all available transparency data into one true, hi
 
 The Nordic-t Raw-Net Map -> Nordic-t Network Model -> Nordic-t State Model -> Nordic-t Simulation Model
 
+data/processed/maps/nordict_raw-net_map.html
+
+<iframe src="data/processed/maps/nordict_raw-net_map.html" height="500" width="500"></iframe>
+
 <iframe src="nordic_state_model_map.html" height="500" width="500"></iframe>
 
 
