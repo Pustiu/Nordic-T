@@ -23,7 +23,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_9cae8c8ea9664a758a9a940e27fca57e {
+                #map_a3da61efc5bb456e85cc77b08ce8f038 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -32,17 +32,40 @@
                 }
             </style>
         
-    <script src="https://unpkg.com/leaflet.featuregroup.subgroup@1.0.2/dist/leaflet.featuregroup.subgroup.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.2/leaflet.draw.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.2/leaflet.draw.css"/>
+    
+            <style>
+                #export {
+                    position: absolute;
+                    top: 5px;
+                    right: 10px;
+                    z-index: 999;
+                    background: white;
+                    color: black;
+                    padding: 6px;
+                    border-radius: 4px;
+                    font-family: 'Helvetica Neue';
+                    cursor: pointer;
+                    font-size: 12px;
+                    text-decoration: none;
+                    top: 90px;
+                }
+            </style>
+        
+    <script src="https://cdn.jsdelivr.net/gh/ljagis/leaflet-measure@2.1.7/dist/leaflet-measure.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ljagis/leaflet-measure@2.1.7/dist/leaflet-measure.min.css"/>
 </head>
 <body>    
     
-            <div class="folium-map" id="map_9cae8c8ea9664a758a9a940e27fca57e" ></div>
+            <div class="folium-map" id="map_a3da61efc5bb456e85cc77b08ce8f038" ></div>
         
+    <a href='#' id='export'>Export</a>
 </body>
 <script>    
     
-            var map_9cae8c8ea9664a758a9a940e27fca57e = L.map(
-                "map_9cae8c8ea9664a758a9a940e27fca57e",
+            var map_a3da61efc5bb456e85cc77b08ce8f038 = L.map(
+                "map_a3da61efc5bb456e85cc77b08ce8f038",
                 {
                     center: [63.5, 17.0],
                     crs: L.CRS.EPSG3857,
@@ -56,94 +79,118 @@
 
         
     
-            var tile_layer_16631b7c8a004249912625952419f87b = L.tileLayer(
+            var tile_layer_ac71f8635dea46968d6d8d8d4ae40385 = L.tileLayer(
                 "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
                 {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_9cae8c8ea9664a758a9a940e27fca57e);
+            ).addTo(map_a3da61efc5bb456e85cc77b08ce8f038);
         
     
-            var tile_layer_8e5a47fe77ef4ffb8825b1c457c50a5c = L.tileLayer(
-                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
-                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_9cae8c8ea9664a758a9a940e27fca57e);
-        
-    
-            var feature_group_094bbeb6afa14dd59a2f678843098eb6 = L.featureGroup(
+            var feature_group_2a1c78a51474485c8dfcd6e3ddaaed4d = L.featureGroup(
                 {}
-            ).addTo(map_9cae8c8ea9664a758a9a940e27fca57e);
+            ).addTo(map_a3da61efc5bb456e85cc77b08ce8f038);
         
     
-            var macro_element_82ba33b05f024b6e84138ef1871d3e6f = L.tileLayer.wms(
+            var macro_element_f596d61f32f0492c8c9d2f900891edc4 = L.tileLayer.wms(
                 "https://fingrid.navici.com/wms/3d5805c1f9cda9db42d9d9378952427b",
                 {"attribution": "\u003ca href=\"https://fingrid.navici.com/\"\u003eFingrid Navici\u003c/a\u003e", "format": "image/gif", "layers": ["active_power_lines", "external_power_lines", "active_cables", "external_cables", "active_stations", "external_stations"], "styles": "", "transparent": true, "version": "1.1.1"}
-            ).addTo(feature_group_094bbeb6afa14dd59a2f678843098eb6);
+            ).addTo(feature_group_2a1c78a51474485c8dfcd6e3ddaaed4d);
         
     
-            var feature_group_1fca6646ae144c9bb4d7c0b388d54acf = L.featureGroup(
+            var feature_group_4ca99b4c5127421db56629cf5d19cbdf = L.featureGroup(
                 {}
-            ).addTo(map_9cae8c8ea9664a758a9a940e27fca57e);
+            ).addTo(map_a3da61efc5bb456e85cc77b08ce8f038);
         
     
-            var macro_element_b6ea766b89c7434faf1a328cf553f215 = L.tileLayer.wms(
+            var macro_element_0d03e408b70f48f499bc35603be6652a = L.tileLayer.wms(
                 "https://agis.energinet.dk/server/services/INSPIRE/XP_el_Inspir/MapServer/WMSServer",
                 {"attribution": "\u003ca href=\"https://agis.energinet.dk/server/rest/services/\"\u003e Energinet ArcGIS\u003c/a\u003e", "format": "image/gif", "layers": ["0", "1", "2", "3"], "styles": "", "transparent": true, "version": "1.1.1"}
-            ).addTo(feature_group_1fca6646ae144c9bb4d7c0b388d54acf);
+            ).addTo(feature_group_4ca99b4c5127421db56629cf5d19cbdf);
         
     
-            var feature_group_f7ea814be6bd40609b03b0bc6daf4eab = L.featureGroup(
+            var feature_group_80844715f8f14774b94aa0e29385e2a0 = L.featureGroup(
                 {}
-            ).addTo(map_9cae8c8ea9664a758a9a940e27fca57e);
+            ).addTo(map_a3da61efc5bb456e85cc77b08ce8f038);
         
     
-            var macro_element_6acf3adb53c04ddc80beeded1e007aa1 = L.tileLayer.wms(
+            var macro_element_4e8ff5605e88439caf3cdd9242636756 = L.tileLayer.wms(
                 "https://nve.geodataonline.no/arcgis/services/Nettanlegg2/MapServer/WMSServer",
-                {"attribution": "\u003ca href=\"https://nve.geodataonline.no/arcgis/rest/services/Nettanlegg2/MapServer\"\u003eStatnett/Nve ArcGIS\u003c/a\u003e", "format": "image/geotiff", "layers": ["Sjokabler", "Distribusjonsnett", "Regionalnett", "Sentralnett", "Transformatorstasjoner", "Master og stolper"], "styles": "", "transparent": true, "version": "1.1.1"}
-            ).addTo(feature_group_f7ea814be6bd40609b03b0bc6daf4eab);
+                {"attribution": "\u003ca href=\"https://nve.geodataonline.no/arcgis/rest/services/Nettanlegg2/MapServer\"\u003eStatnett/Nve ArcGIS\u003c/a\u003e", "format": "image/png", "layers": ["Sjokabler", "Distribusjonsnett", "Regionalnett", "Sentralnett", "Transformatorstasjoner", "Master og stolper"], "styles": "", "transparent": true, "version": "1.1.1"}
+            ).addTo(feature_group_80844715f8f14774b94aa0e29385e2a0);
         
     
-            var feature_group_92cde76c5bc24d1bb6d5530d00191a81 = L.featureGroup(
+            var feature_group_35f3ce86ed7f45b6b016f49bad6d24ed = L.featureGroup(
                 {}
-            ).addTo(map_9cae8c8ea9664a758a9a940e27fca57e);
+            ).addTo(map_a3da61efc5bb456e85cc77b08ce8f038);
         
     
-            var macro_element_f301dc2f5a954c019bf5c7a96e907bed = L.tileLayer.wms(
+            var macro_element_f27afe0d8a5047dbb52e963bb18bc5d6 = L.tileLayer.wms(
                 "https://inspire-skn.metria.se/geoserver/skn/wms",
                 {"attribution": "\u003ca href=\"https://inspire-skn.metria.se/geoserver/skn/wms?REQUEST=GetCapabilities\"\u003eSvenska Kraftn\u00e4t/L\u00e4ntm\u00e4teriet GeoServer\u003c/a\u003e", "format": "image/gif", "layers": ["US.ElectricityNetwork.Lines", "US.ElectricityNetwork.StationAreas", "US.ElectricityNetwork.Stations"], "styles": "", "transparent": true, "version": "1.1.1"}
-            ).addTo(feature_group_92cde76c5bc24d1bb6d5530d00191a81);
+            ).addTo(feature_group_35f3ce86ed7f45b6b016f49bad6d24ed);
         
     
-            var feature_group_sub_group_bb7bb19db1d2461eab94501ab8735bd4 = L.featureGroup.subGroup(
-                feature_group_92cde76c5bc24d1bb6d5530d00191a81
-            );
-            feature_group_sub_group_bb7bb19db1d2461eab94501ab8735bd4.addTo(map_9cae8c8ea9664a758a9a940e27fca57e);
-        
-    
-            var feature_group_sub_group_3c1acc7666b54e9681e0273d093c5e74 = L.featureGroup.subGroup(
-                feature_group_92cde76c5bc24d1bb6d5530d00191a81
-            );
-            feature_group_sub_group_3c1acc7666b54e9681e0273d093c5e74.addTo(map_9cae8c8ea9664a758a9a940e27fca57e);
-        
-    
-            var layer_control_7a77089376994b968b25d16b8c3bf3da = {
+            var layer_control_a2eccb1c2522432788860306bdbfdf1c = {
                 base_layers : {
-                    "cartodbpositron" : tile_layer_16631b7c8a004249912625952419f87b,
-                    "openstreetmap" : tile_layer_8e5a47fe77ef4ffb8825b1c457c50a5c,
+                    "cartodbpositron" : tile_layer_ac71f8635dea46968d6d8d8d4ae40385,
                 },
                 overlays :  {
-                    "Finland, Fingrid Grid" : feature_group_094bbeb6afa14dd59a2f678843098eb6,
-                    "Denmark, Energinet Grid" : feature_group_1fca6646ae144c9bb4d7c0b388d54acf,
-                    "Norway, Statnett Grid" : feature_group_f7ea814be6bd40609b03b0bc6daf4eab,
-                    "Sweden, Svenska Kraftn\u00e4t Grid" : feature_group_92cde76c5bc24d1bb6d5530d00191a81,
-                    "SvK Lines" : feature_group_sub_group_bb7bb19db1d2461eab94501ab8735bd4,
-                    "SvK Stations" : feature_group_sub_group_3c1acc7666b54e9681e0273d093c5e74,
+                    "Finland, Fingrid Grid" : feature_group_2a1c78a51474485c8dfcd6e3ddaaed4d,
+                    "Denmark, Energinet Grid" : feature_group_4ca99b4c5127421db56629cf5d19cbdf,
+                    "Norway, Statnett Grid" : feature_group_80844715f8f14774b94aa0e29385e2a0,
+                    "Sweden, Svenska Kraftn\u00e4t Grid" : feature_group_35f3ce86ed7f45b6b016f49bad6d24ed,
                 },
             };
             L.control.layers(
-                layer_control_7a77089376994b968b25d16b8c3bf3da.base_layers,
-                layer_control_7a77089376994b968b25d16b8c3bf3da.overlays,
-                {"autoZIndex": true, "collapsed": true, "position": "topright"}
-            ).addTo(map_9cae8c8ea9664a758a9a940e27fca57e);
-            tile_layer_8e5a47fe77ef4ffb8825b1c457c50a5c.remove();
-            tile_layer_16631b7c8a004249912625952419f87b.remove();
+                layer_control_a2eccb1c2522432788860306bdbfdf1c.base_layers,
+                layer_control_a2eccb1c2522432788860306bdbfdf1c.overlays,
+                {"autoZIndex": true, "collapsed": true, "collapset": false, "position": "topright"}
+            ).addTo(map_a3da61efc5bb456e85cc77b08ce8f038);
+        
+    
+            var options = {
+              position: "topleft",
+              draw: {},
+              edit: {},
+            }
+            // FeatureGroup is to store editable layers.
+            var drawnItems = new L.featureGroup().addTo(
+                map_a3da61efc5bb456e85cc77b08ce8f038
+            );
+            options.edit.featureGroup = drawnItems;
+            var draw_control_c415d848ed0746e0a94aad648e35a133 = new L.Control.Draw(
+                options
+            ).addTo( map_a3da61efc5bb456e85cc77b08ce8f038 );
+            map_a3da61efc5bb456e85cc77b08ce8f038.on(L.Draw.Event.CREATED, function(e) {
+                var layer = e.layer,
+                    type = e.layerType;
+                var coords = JSON.stringify(layer.toGeoJSON());
+                layer.on('click', function() {
+                    alert(coords);
+                    console.log(coords);
+                });
+                drawnItems.addLayer(layer);
+             });
+            map_a3da61efc5bb456e85cc77b08ce8f038.on('draw:created', function(e) {
+                drawnItems.addLayer(e.layer);
+            });
+            
+            document.getElementById('export').onclick = function(e) {
+                var data = drawnItems.toGeoJSON();
+                var convertedData = 'text/json;charset=utf-8,'
+                    + encodeURIComponent(JSON.stringify(data));
+                document.getElementById('export').setAttribute(
+                    'href', 'data:' + convertedData
+                );
+                document.getElementById('export').setAttribute(
+                    'download', "nordict_raw-net_draw.geojson"
+                );
+            }
+            
+        
+    
+            var measure_control_7ac499eb1f3146e7be4aa3ae1f39a58a = new L.Control.Measure(
+                {"position": "bottomleft", "primaryAreaUnit": "sqmeters", "primaryLengthUnit": "meters", "secondaryAreaUnit": "acres", "secondaryLengthUnit": "miles"});
+            map_a3da61efc5bb456e85cc77b08ce8f038.addControl(measure_control_7ac499eb1f3146e7be4aa3ae1f39a58a);
+
         
 </script>
