@@ -8,6 +8,14 @@ This projects aim is to gather all available transparency data into one true, hi
 **All varioius transparent open data sources has been implemented into one interactive map as seen below, for all convenience.**
 
 
+## The Nordic Transparency Modelling Sources
+
+
+
+## Implementing the Transparent Sources in a Model
+
+During this work, great was mad to create simple, pythonic implementations of the transparent sources into the Nordic-T modelling platform for its continuous transparent maintainance. As a result, pythonic client modules for all available transparent data sources has been created and made accessable as open repositories at [this main github site](ocrj.github.com).
+
 ## The Nordic-t Modelling Maps
 
 ### Raw-Net Transparency Data Model
