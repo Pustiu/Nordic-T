@@ -1,5 +1,5 @@
 # The Nordic Transparency Model for Analysis
-The Nordic Transparency Model for Analysis, **Nordic-T for short**, is an open open research model of the Nordic Electrical Power System built on high accuracy, transparent sources gathered from its Transmission System Operators: Fingrid - Finland, Energinet - Denmark, Statnett - Norway and Svenska kraftnät - Sweden. 
+The Nordic Transparency Model for Analysis, **Nordic-T**<sub>for short</sub>, is an open open research model of the Nordic Electrical Power System built on high accuracy, transparent sources gathered from its Transmission System Operators: Fingrid - Finland, Energinet - Denmark, Statnett - Norway and Svenska kraftnät - Sweden. 
 
 It is created as part of the research project at NTNU.
 
