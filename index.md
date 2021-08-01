@@ -12,7 +12,7 @@ The Nordic-t Raw-Net Map -> Nordic-t Network Model -> Nordic-t State Model -> No
 
 ### Raw-Transparency Map
 
-This map collects and combines the models transparent network sources into one; raw data map display. Zooming closely inn on Norway and Finland enables their networks full contents.
+This map collects and combines the models transparent network sources into one; raw data map display. Zooming closely inn on Norway and Finland reveals their networks full contents.
 
 <p align="center"><iframe src="data/maps/nordict_raw-net_map.html" height="500" width="750"></iframe></p>
 
