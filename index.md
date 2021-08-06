@@ -1,5 +1,5 @@
 # The Nordic Transparency Model for Analysis
-The Nordic Transparency Model for Analysis is an open researchers model of the Nordic Electrical Power System being built on available transparent data, published by the Nordic Transmission System Operators(TSOs); *Fingrid - Finland, Energinet - Denmark, Statnett - Norway and Svenska kraftnät - Sweden. * and *ENTSO-E.*
+The Nordic Transparency Model for Analysis is an open researchers model of the Nordic Electrical Power System being built on available transparent data, published by the Nordic Transmission System Operators(TSOs); *Fingrid - Finland, Energinet - Denmark, Statnett - Norway and Svenska kraftnät - Sweden, and ENTSO-E.*
 
 Having it's offspring as this repository owners final delivery for M.Sc. in Energy and Environment at NTNU, Trondhjem Norway, although it is not yet complete, it's work will be continued as long as there is need for 50+-0.1Hz in our sockets.
 
