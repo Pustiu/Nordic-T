@@ -32,7 +32,7 @@ This model representation is simply the transparent, raw network representations
 ## Analysis Map
 
 ## NordicT-PSA Map
-This map is the raw extract of all lines and nodes interfering with the NordicT subsystem areas, from the PyPSA-EUR Unofficial ENTSO-E Dynamic Map extraction dataset.
+This map is the raw extract of all lines and nodes interfering with the NordicT subsystem areas, from the PyPSA-EUR Unofficial ENTSO-E Dynamic Map extraction dataset [link](https://github.com/PyPSA/pypsa-eur).
 
 <p align="center"><iframe src="NordicT-PSA_map.html" height="500" width="700"></iframe></p>
 
