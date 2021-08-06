@@ -31,6 +31,11 @@ This model representation is simply the transparent, raw network representations
 
 ## Analysis Map
 
+## NordicT-PSA Map
+This map is the raw extract of all lines and nodes interfering with the NordicT subsystem areas, from the PyPSA-EUR Unofficial ENTSO-E Dynamic Map extraction dataset.
+
+<p align="center"><iframe src="nordict-psa_map.html" height="500" width="700"></iframe></p>
+
 Utilizing the open source [PandaPower](https://www.pandapower.org/) open source power system modelling tool, initial solutions for the models linearized power flows solutions is seen in this analysis map.
 
 You can edit the maps own html site [here](https://github.com/ocrj/nordic/blob/gh-pages/nordic_state_model_map.html)
