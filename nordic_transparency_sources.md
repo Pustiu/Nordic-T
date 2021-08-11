@@ -1,4 +1,4 @@
-# The Nordic Transparency Sources
+# The Nordic Transparency Data
 
 This page contain information on the this models Transparency data sources.
 
