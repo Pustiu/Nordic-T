@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d89a343979c04fe381d77f5893784ef7 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.2/leaflet.draw.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.2/leaflet.draw.css"/>
+    <script src="https://cdn.jsdelivr.net/gh/ljagis/leaflet-measure@2.1.7/dist/leaflet-measure.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ljagis/leaflet-measure@2.1.7/dist/leaflet-measure.min.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.fullscreen/1.4.2/Control.FullScreen.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.fullscreen/1.4.2/Control.FullScreen.min.css"/>
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_d89a343979c04fe381d77f5893784ef7" ></div>
+        
+</body>
+<script>    
+    
+            var map_d89a343979c04fe381d77f5893784ef7 = L.map(
+                "map_d89a343979c04fe381d77f5893784ef7",
+                {
+                    center: [63.5, 17.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                    minResolution: 0,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_8757d537d5244f58b3bdce4a83867da1 = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_d89a343979c04fe381d77f5893784ef7);
+        
+    
+            var feature_group_e72e8ce523c647a0908561b0fa0ecc8e = L.featureGroup(
+                {}
+            ).addTo(map_d89a343979c04fe381d77f5893784ef7);
+        
+    
+            var macro_element_2a6497dd08e442119e85f7bc20f214ca = L.tileLayer.wms(
+                "https://fingrid.navici.com/wms/3d5805c1f9cda9db42d9d9378952427b",
+                {"attribution": "\u003ca href=\"https://fingrid.navici.com/\"\u003eFingrid Navici\u003c/a\u003e", "format": "image/gif", "layers": ["active_power_lines", "external_power_lines", "active_cables", "external_cables", "active_stations", "external_stations"], "styles": "", "transparent": true, "version": "1.1.1"}
+            ).addTo(feature_group_e72e8ce523c647a0908561b0fa0ecc8e);
+        
+    
+            var feature_group_cdcaa6b1dc02450b8930d8c7f0ad5747 = L.featureGroup(
+                {}
+            ).addTo(map_d89a343979c04fe381d77f5893784ef7);
+        
+    
+            var macro_element_e976d44082e7439dbf833bf99a75b523 = L.tileLayer.wms(
+                "https://agis.energinet.dk/server/services/INSPIRE/XP_el_Inspir/MapServer/WMSServer",
+                {"attribution": "\u003ca href=\"https://agis.energinet.dk/server/rest/services/\"\u003e Energinet ArcGIS\u003c/a\u003e", "format": "image/gif", "layers": ["0", "1", "2", "3"], "styles": "", "transparent": true, "version": "1.1.1"}
+            ).addTo(feature_group_cdcaa6b1dc02450b8930d8c7f0ad5747);
+        
+    
+            var macro_element_4d984c8582764153a73f2949c9d53db1 = L.tileLayer.wms(
+                "https://agis.energinet.dk/server/services/INSPIRE/WMS_WFS_TowerSubstationLine_N/MapServer/WMSServer",
+                {"attribution": "", "format": "image/gif", "layers": ["1"], "styles": "", "transparent": true, "version": "1.1.1"}
+            ).addTo(feature_group_cdcaa6b1dc02450b8930d8c7f0ad5747);
+        
+    
+            var feature_group_c2f88069d2d040f78e9db1e31b6e27f2 = L.featureGroup(
+                {}
+            ).addTo(map_d89a343979c04fe381d77f5893784ef7);
+        
+    
+            var macro_element_6587d1c99039411e914ec95171614aa8 = L.tileLayer.wms(
+                "https://nve.geodataonline.no/arcgis/services/Nettanlegg2/MapServer/WMSServer",
+                {"attribution": "\u003ca href=\"https://nve.geodataonline.no/arcgis/rest/services/Nettanlegg2/MapServer\"\u003eStatnett/Nve ArcGIS\u003c/a\u003e", "format": "image/png", "layers": ["Sjokabler", "Distribusjonsnett", "Regionalnett", "Sentralnett", "Transformatorstasjoner", "Master og stolper"], "minZoom": 0, "styles": "", "transparent": true, "version": "1.1.1"}
+            ).addTo(feature_group_c2f88069d2d040f78e9db1e31b6e27f2);
+        
+    
+            var feature_group_343f70f129ee4657b1cb5a361f9faee8 = L.featureGroup(
+                {}
+            ).addTo(map_d89a343979c04fe381d77f5893784ef7);
+        
+    
+            var macro_element_f124128ffcf4464c9db2fb0497fa36f8 = L.tileLayer.wms(
+                "https://inspire-skn.metria.se/geoserver/skn/wms",
+                {"attribution": "\u003ca href=\"https://inspire-skn.metria.se/geoserver/skn/wms?REQUEST=GetCapabilities\"\u003eSvenska Kraftn\u00e4t/L\u00e4ntm\u00e4teriet GeoServer\u003c/a\u003e", "format": "image/gif", "layers": ["US.ElectricityNetwork.Lines", "US.ElectricityNetwork.StationAreas", "US.ElectricityNetwork.Stations"], "styles": "", "transparent": true, "version": "1.1.1"}
+            ).addTo(feature_group_343f70f129ee4657b1cb5a361f9faee8);
+        
+    
+            var layer_control_e5c2297cf1884db591878a8e5b0fe15e = {
+                base_layers : {
+                    "cartodbpositron" : tile_layer_8757d537d5244f58b3bdce4a83867da1,
+                },
+                overlays :  {
+                    "Finland, Fingrid Grid" : feature_group_e72e8ce523c647a0908561b0fa0ecc8e,
+                    "Denmark, Energinet Grid" : feature_group_cdcaa6b1dc02450b8930d8c7f0ad5747,
+                    "Norway, Statnett Grid" : feature_group_c2f88069d2d040f78e9db1e31b6e27f2,
+                    "Sweden, Svenska Kraftn\u00e4t Grid" : feature_group_343f70f129ee4657b1cb5a361f9faee8,
+                },
+            };
+            L.control.layers(
+                layer_control_e5c2297cf1884db591878a8e5b0fe15e.base_layers,
+                layer_control_e5c2297cf1884db591878a8e5b0fe15e.overlays,
+                {"autoZIndex": true, "collapsed": true, "collapset": false, "position": "topright"}
+            ).addTo(map_d89a343979c04fe381d77f5893784ef7);
+        
+    
+            var options = {
+              position: "topleft",
+              draw: {},
+              edit: {},
+            }
+            // FeatureGroup is to store editable layers.
+            var drawnItems = new L.featureGroup().addTo(
+                map_d89a343979c04fe381d77f5893784ef7
+            );
+            options.edit.featureGroup = drawnItems;
+            var draw_control_25b6bfb911ed47559aef6f5ab14baaeb = new L.Control.Draw(
+                options
+            ).addTo( map_d89a343979c04fe381d77f5893784ef7 );
+            map_d89a343979c04fe381d77f5893784ef7.on(L.Draw.Event.CREATED, function(e) {
+                var layer = e.layer,
+                    type = e.layerType;
+                var coords = JSON.stringify(layer.toGeoJSON());
+                layer.on('click', function() {
+                    alert(coords);
+                    console.log(coords);
+                });
+                drawnItems.addLayer(layer);
+             });
+            map_d89a343979c04fe381d77f5893784ef7.on('draw:created', function(e) {
+                drawnItems.addLayer(e.layer);
+            });
+            
+        
+    
+            var measure_control_8aa6ea3e04964ba08e6e55e94a6f120b = new L.Control.Measure(
+                {"position": "bottomleft", "primaryAreaUnit": "sqmeters", "primaryLengthUnit": "meters", "secondaryAreaUnit": "acres", "secondaryLengthUnit": "miles"});
+            map_d89a343979c04fe381d77f5893784ef7.addControl(measure_control_8aa6ea3e04964ba08e6e55e94a6f120b);
+
+        
+    
+            L.control.fullscreen(
+                {"forceSeparateButton": false, "position": "topleft", "title": "Full Screen", "titleCancel": "Exit Full Screen"}
+            ).addTo(map_d89a343979c04fe381d77f5893784ef7);
+        
+</script>
